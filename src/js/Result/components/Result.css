@@ -1,0 +1,20 @@
+.result-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 500px;
+  font-size: 20px;
+}
+.result-content-header {
+  margin-bottom: 30px;
+}
+.result-first-currency {
+  color: #4c63af;
+}
+.result-second-currency {
+  color: #4caf50;
+}
+.result-content-data {
+}

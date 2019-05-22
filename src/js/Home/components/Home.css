@@ -1,0 +1,33 @@
+.home-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 100%;
+  margin-bottom: 150px;
+}
+.home-content-greeting {
+  font-size: 21px;
+  margin: 20px 0;
+}
+
+.home-content-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-self: flex-start;
+
+  max-height: 1000px;
+}
+
+.home-content-list-item {
+  margin: 5px 7px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.home-content-list-item:hover {
+  transform: scale(1.2);
+  color: #4caf50;
+}
