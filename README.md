@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Routes
+
+/ - Home Page<br>
+/login - Login Page<br>
+/result - Convert Result<br>
+
+
 ## Available Scripts
 
 In the project directory, you can run:
