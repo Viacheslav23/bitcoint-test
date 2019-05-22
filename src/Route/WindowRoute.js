@@ -3,8 +3,6 @@ import { connect } from "react-redux";
 import { Route, Redirect } from "react-router-dom";
 
 const WindowRoute = ({ component: Component, authed, data, ...rest }) => {
-  let isResultOpened = window.sessionStorage.getItem("isResultOpened");
-  console.log("data", data);
   return (
     <Route
       {...rest}

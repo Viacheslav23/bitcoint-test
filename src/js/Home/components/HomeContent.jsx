@@ -15,7 +15,6 @@ const HomeContent = ({ data, convertTriggered, history }) => {
     convertTriggered(currency);
 
     history.push("/result");
-    window.sessionStorage.setItem("isResultOpened", "true");
   };
 
   return (
